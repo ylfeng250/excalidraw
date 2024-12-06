@@ -3,13 +3,13 @@ const fs = require("fs");
 // 读取 reporter.json
 const reporterPath = path.join(
   __dirname,
-  "../packages/excalidraw/fonts/Muyao/dist/reporter.json",
+  "../packages/excalidraw/fonts/Muyao/font/reporter.json",
 );
 const reporter = JSON.parse(fs.readFileSync(reporterPath, "utf-8"));
 
 // 生成导入语句
 const imports = reporter.data
-  .map((subset, index) => `import _${index} from "./dist/${subset.name}";`)
+  .map((subset, index) => `import _${index} from "./font/${subset.name}";`)
   .join("\n");
 
 // 生成字体描述数组
