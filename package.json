@@ -35,6 +35,7 @@
     "pepjs": "0.5.3",
     "prettier": "2.6.2",
     "rewire": "6.0.0",
+    "ts-node": "10.9.2",
     "typescript": "4.9.4",
     "vite": "5.0.12",
     "vite-plugin-checker": "0.7.2",
@@ -80,7 +81,8 @@
     "release:excalidraw": "node scripts/release.js",
     "rm:build": "rm -rf excalidraw-app/{build,dist,dev-dist} && rm -rf packages/*/{dist,build} && rm -rf examples/*/*/{build,dist}",
     "rm:node_modules": "rm -rf node_modules && rm -rf excalidraw-app/node_modules && rm -rf packages/*/node_modules",
-    "clean-install": "yarn rm:node_modules && yarn install"
+    "clean-install": "yarn rm:node_modules && yarn install",
+    "generate-muyao": "node scripts/generate-muyao-subsets.ts"
   },
   "resolutions": {
     "@types/react": "18.2.0",

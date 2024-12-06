@@ -22,6 +22,7 @@ import { LiberationFontFaces } from "./Liberation";
 import { LilitaFontFaces } from "./Lilita";
 import { NunitoFontFaces } from "./Nunito";
 import { VirgilFontFaces } from "./Virgil";
+import { MuyaoFontFaces } from "./Muyao";
 import { XiaolaiFontFaces } from "./Xiaolai";
 
 import { FONT_METADATA, type FontMetadata } from "./FontMetadata";
@@ -407,6 +408,7 @@ export class Fonts {
     init("Lilita One", ...LilitaFontFaces);
     init("Nunito", ...NunitoFontFaces);
     init("Virgil", ...VirgilFontFaces);
+    init("Muyao", ...MuyaoFontFaces);
 
     // fallback font faces
     init(CJK_HAND_DRAWN_FALLBACK_FONT, ...XiaolaiFontFaces);

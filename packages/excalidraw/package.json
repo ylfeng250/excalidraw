@@ -65,6 +65,7 @@
     "browser-fs-access": "0.29.1",
     "canvas-roundrect-polyfill": "0.0.1",
     "clsx": "1.1.1",
+    "cn-font-split": "6.0.3",
     "cross-env": "7.0.3",
     "es6-promise-pool": "2.5.0",
     "fractional-indexing": "3.2.0",

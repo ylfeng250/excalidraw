@@ -70,6 +70,15 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
     },
     icon: FontFamilyCodeIcon,
   },
+  [FONT_FAMILY.Muyao]: {
+    metrics: {
+      unitsPerEm: 1000,
+      ascender: 886,
+      descender: -114,
+      lineHeight: 1.25,
+    },
+    icon: FreedrawIcon,
+  },
   [FONT_FAMILY.Virgil]: {
     metrics: {
       unitsPerEm: 1000,
